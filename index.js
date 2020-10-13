@@ -10,5 +10,5 @@ function excuseGenerator(){
     objectAnswer = objectOptions[Math.round(Math.random()*(objectOptions.length-1))];
     timeAnswer = timeOptions[Math.round(Math.random()*(timeOptions.length-1))];
 
-    document.getElementById("answerDocument").innerHTML = "Sorry teacher, but" +" " + whoAnswer +" "+ didAnswer +" "+ "objectAnswer" +" "+ timeAnswer;
+    document.getElementById("answerDocument").innerHTML = "Sorry teacher, but" +" " + whoAnswer +" "+ didAnswer +" "+ objectAnswer +" "+ timeAnswer;
 }
