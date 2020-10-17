@@ -1,4 +1,4 @@
-function excuseGenerator(){
+window.onclick = function() {
 
     let whoOptions = ['the dog','my grandma','my turtle','my bird','my fish'];
     let didOptions = ['ate','peed','burned','broke'];
@@ -11,5 +11,5 @@ function excuseGenerator(){
     let objectAnswer = objectOptions[Math.round(Math.random()*(objectOptions.length-1))];
     let timeAnswer = timeOptions[Math.round(Math.random()*(timeOptions.length-1))];
 
-    document.getElementById("answerDocument").innerHTML = firstPartAnswer.concat(" ",whoAnswer," ",didAnswer," ",objectAnswer," ",timeAnswer);
+    document.querySelector("#answerDocument").innerHTML = firstPartAnswer.concat(" ",whoAnswer," ",didAnswer," ",objectAnswer," ",timeAnswer);
 }
