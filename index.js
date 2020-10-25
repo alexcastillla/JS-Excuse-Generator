@@ -1,4 +1,4 @@
-function excuseGenerator() {
+window.onload = function excuseGenerator() {
 
     let whoOptions = ['the dog','my grandma','my turtle','my bird','my fish'];
     let didOptions = ['ate','peed','burned','broke'];
